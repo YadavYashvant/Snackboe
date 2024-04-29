@@ -28,13 +28,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    IconButton(onClick = {
-
-                        SnackBoer(this, "This works!!")
-
-                    }) {
-                        Icon(imageVector = Icons.Rounded.Notifications, contentDescription = null)
-                    }
+                    SnackbarHelper.SnackbarExample()
                 }
             }
         }
