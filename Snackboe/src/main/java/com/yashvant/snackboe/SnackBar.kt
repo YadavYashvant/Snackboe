@@ -20,7 +20,7 @@ object SnackbarHelper {
         val context = LocalContext.current
         val snackbarVisibleState = remember { mutableStateOf(false) }
 
-        Column {
+        /*Column {
             Button(onClick = {
                 snackbarVisibleState.value = true
             }) {
@@ -41,6 +41,6 @@ object SnackbarHelper {
                     Text("This is a Snackbar!")
                 }
             }
-        }
+        }*/
     }
 }
