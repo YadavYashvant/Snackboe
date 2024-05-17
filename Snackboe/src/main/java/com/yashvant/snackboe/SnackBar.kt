@@ -16,9 +16,12 @@ import com.google.android.material.snackbar.Snackbar
 
 object SnackbarHelper {
     @Composable
-    fun SnackbarExample() {
-        val context = LocalContext.current
+    fun SnackbarExample(context: Context) {
+
         val snackbarVisibleState = remember { mutableStateOf(false) }
+
+//        val context = LocalContext.current
+//        val snackbarVisibleState = remember { mutableStateOf(false) }
 
         /*Column {
             Button(onClick = {
