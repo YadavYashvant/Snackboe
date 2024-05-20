@@ -28,7 +28,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    SnackbarHelper.SnackbarExample(LocalContext.current)
+
+                    SnackbarHelper.SnackbarExample(this)
                 }
             }
         }
