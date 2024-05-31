@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
 
-                    SnackbarHelper.SnackbarExample(this)
+//                    SnackbarHelper.SnackbarExample(this)
                 }
             }
         }
