@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
 //                    Greeting("Android")
                     IconButton(onClick = {
 
-                        SnackBoer(this, "This works!!")
+//                        SnackBoer(this, "This works!!")
 
                     }) {
                         Icon(imageVector = Icons.Rounded.Notifications, contentDescription = null)
